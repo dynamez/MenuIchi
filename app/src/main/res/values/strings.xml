@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">MenuIchi</string>
+  <string name="app_name">MenuIchi</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+  <string name="action_settings">Settings</string>
 
-    <string name="title_activity_spalshscreen">SpalshscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">一番</string>
-    <string name="copyright">© 2017 Rayout Development. Todos los derechos reservados.</string>
+  <string name="title_activity_spalshscreen">SpalshscreenActivity</string>
+  <string name="dummy_button">Dummy Button</string>
+  <string name="dummy_content">一番</string>
+  <string name="copyright">© 2017 Rayout Development. Todos los derechos reservados.</string>
 </resources>

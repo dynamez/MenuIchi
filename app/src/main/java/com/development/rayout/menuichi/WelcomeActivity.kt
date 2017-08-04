@@ -15,7 +15,7 @@ class WelcomeActivity : Activity() {
         setContentView(R.layout.activity_welcome)
         continuar_id.setOnClickListener { val mainIntent = Intent(this, MenuPrincipalActivity::class.java)
             startActivity(mainIntent)
-            finish() }
+             }
 
 
 
