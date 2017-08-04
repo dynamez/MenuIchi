@@ -7,26 +7,51 @@
     tools:context="com.development.rayout.menuichi.WelcomeActivity">
 
     <ImageView
-      android:id="@+id/imageView3"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:src="@drawable/ichiban_welcome"
-      app:layout_constraintBottom_toTopOf="@+id/continuar_id"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      tools:layout_editor_absoluteX="344dp"
-      tools:layout_editor_absoluteY="342dp"/>
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="500dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backsplash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.65"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ichi_welcome"
+        app:layout_constraintBottom_toTopOf="@+id/continuar_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="342dp" />
 
     <ImageView
         android:id="@+id/continuar_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/continuar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/continuar_white"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="32dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

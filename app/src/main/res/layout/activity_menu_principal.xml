@@ -32,16 +32,16 @@
     </RelativeLayout>
 
     <ImageView
-      android:id="@+id/imageView4"
-      android:layout_width="483dp"
-      android:layout_height="141dp"
-      android:layout_marginTop="80dp"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:srcCompat="@drawable/ichiban_splash_white"
-      tools:layout_editor_absoluteY="80dp"/>
+        android:id="@+id/imageView4"
+        android:layout_width="483dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ichi_splash"
+        tools:layout_editor_absoluteY="80dp" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -59,6 +59,36 @@
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
 
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:srcCompat="@drawable/bg_principal" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="0dp"
+        android:alpha="1"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:srcCompat="@drawable/bg"
+        tools:layout_editor_absoluteX="0dp" />
 
     <android.support.v7.widget.CardView
       android:id="@+id/appetizer_card"
@@ -80,52 +110,53 @@
       tools:layout_editor_absoluteX="16dp">
 
         <android.support.constraint.ConstraintLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5F5F5">
 
             <ImageView
-              android:id="@+id/imageView"
-              android:layout_width="150dp"
-              android:layout_height="120dp"
-              android:layout_marginStart="0dp"
-              android:adjustViewBounds="false"
-              android:cropToPadding="true"
-              android:scaleType="centerCrop"
-              app:layout_constraintBottom_toBottomOf="parent"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
-              app:layout_constraintVertical_bias="0.0"
-              app:srcCompat="@drawable/thumbnail"/>
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="0dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/thumbnail" />
 
             <TextView
-              android:id="@+id/textView3"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:fontFamily="@font/open_sans_semibold"
-              android:text="APPETIZERS"
-              android:textSize="24sp"
-              android:visibility="visible"
-              app:layout_constraintBottom_toBottomOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintHorizontal_bias="0.7"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
-              tools:layout_editor_absoluteY="48dp"/>
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="APPETIZERS"
+                android:textSize="24sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteY="48dp" />
 
             <ImageView
-              android:id="@+id/imageView11"
-              android:layout_width="180dp"
-              android:layout_height="120dp"
-              android:layout_marginStart="0dp"
-              android:visibility="gone"
-              app:layout_constraintBottom_toBottomOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintHorizontal_bias="0.65"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
-              app:srcCompat="@drawable/appetizer_title"
-              tools:layout_editor_absoluteX="224dp"
-              tools:layout_editor_absoluteY="13dp"/>
+                android:id="@+id/imageView11"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="0dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/appetizer_title"
+                tools:layout_editor_absoluteX="224dp"
+                tools:layout_editor_absoluteY="13dp" />
         </android.support.constraint.ConstraintLayout>
 
     </android.support.v7.widget.CardView>
