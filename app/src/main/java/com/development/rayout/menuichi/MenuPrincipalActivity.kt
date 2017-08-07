@@ -1,12 +1,9 @@
 package com.development.rayout.menuichi
 
 import android.content.Intent
-import android.media.MediaPlayer
 import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.VideoView
 import kotlinx.android.synthetic.main.activity_menu_principal.*
 
 class MenuPrincipalActivity : AppCompatActivity() {
@@ -20,7 +17,7 @@ class MenuPrincipalActivity : AppCompatActivity() {
         videoView.start()
         videoView.setOnPreparedListener { mp -> mp.isLooping = true }
 
-        appetizer_card.setOnClickListener { val mainIntent = Intent(this, AppetizerSubcatActivity::class.java)
+        cv.setOnClickListener { val mainIntent = Intent(this, ProductListActivity::class.java)
             startActivity(mainIntent)
              }
         sushibar_card.setOnClickListener { val mainIntent = Intent(this, AppetizerSubcatActivity::class.java)

@@ -39,7 +39,8 @@
       android:theme="@style/AppTheme.NoActionBar"/>
     <activity android:name=".ProductListActivity">
     </activity>
-    <activity android:name=".AppetizerSubcatActivity">
+    <activity android:name=".AppetizerSubcatActivity"
+        android:theme="@style/AppTheme.NoActionBar">
     </activity>
   </application>
 
