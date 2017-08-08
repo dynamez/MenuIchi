@@ -37,10 +37,15 @@
     <activity
       android:name=".MenuPrincipalActivity"
       android:theme="@style/AppTheme.NoActionBar"/>
-    <activity android:name=".ProductListActivity">
+    <activity android:name=".ProductListActivity"
+      android:theme="@style/AppTheme.NoActionBar">
     </activity>
-    <activity android:name=".AppetizerSubcatActivity"
-        android:theme="@style/AppTheme.NoActionBar">
+    <activity
+      android:name=".AppetizerSubcatActivity"
+      android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+    <activity android:name=".SushiSubcatActivity"
+      android:theme="@style/AppTheme.NoActionBar">
     </activity>
   </application>
 

@@ -7,10 +7,59 @@
   android:layout_height="match_parent"
   tools:context="com.development.rayout.menuichi.ProductListActivity">
 
+    <VideoView
+      android:id="@+id/videoView2"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="@+id/mediumfilter2"
+      app:layout_constraintEnd_toEndOf="@+id/mediumfilter2"
+      app:layout_constraintStart_toStartOf="@+id/mediumfilter2"
+      app:layout_constraintTop_toTopOf="@+id/mediumfilter2"/>
+    <ImageView
+      android:id="@+id/mediumfilter2"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginEnd="50dp"
+      android:alpha="0.6"
+      android:scaleType="centerCrop"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/mediumfilter"/>
+    <ImageView
+      android:id="@+id/logotop2"
+      android:layout_width="483dp"
+      android:layout_height="141dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toBottomOf="@+id/videoView2"
+      app:layout_constraintEnd_toEndOf="@+id/videoView2"
+      app:layout_constraintHorizontal_bias="0.501"
+      app:layout_constraintStart_toStartOf="@+id/videoView2"
+      app:srcCompat="@drawable/ichi_splash"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/videoView2"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"/>
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv"
-        android:layout_width="784dp"
-        android:layout_height="1127dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+      android:id="@+id/rv"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginEnd="50dp"
+      android:background="@drawable/lightfilter"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/mediumfilter2"
+      android:layout_marginBottom="16dp"/>
 </android.support.constraint.ConstraintLayout>

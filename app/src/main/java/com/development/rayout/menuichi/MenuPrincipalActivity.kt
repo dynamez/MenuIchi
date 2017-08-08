@@ -20,7 +20,7 @@ class MenuPrincipalActivity : AppCompatActivity() {
         cv.setOnClickListener { val mainIntent = Intent(this, ProductListActivity::class.java)
             startActivity(mainIntent)
              }
-        sushibar_card.setOnClickListener { val mainIntent = Intent(this, AppetizerSubcatActivity::class.java)
+        sushibar_card.setOnClickListener { val mainIntent = Intent(this, SushiSubcatActivity::class.java)
             startActivity(mainIntent)
         }
         postres_card.setOnClickListener { val mainIntent = Intent(this, AppetizerSubcatActivity::class.java)
